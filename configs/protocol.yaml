@@ -1,0 +1,48 @@
+# Protocol skeleton for DTRA-103340 (record-wise three-class ECG benchmark).
+# NOTE: numeric hyperparameters below are placeholders to be locked to the
+# revised manuscript before release; structural choices follow the reviewed design.
+datasets:
+  internal: mitdb        # MIT-BIH Arrhythmia Database (PhysioNet)
+  external: [incartdb, svdb, sddb]
+  lead_rule: "MLII where available; otherwise the first available channel"
+split:
+  method: record_wise_de_chazal
+  train_records: [101,106,108,109,112,114,115,116,118,119,122,124,
+                  201,203,205,207,208,209,215,220,223,230]
+  test_records:  [100,103,105,111,113,117,121,123,200,202,210,212,
+                  213,214,219,221,222,228,231,232,233,234]
+  # Reviewer 4: records 201 (train) and 202 (test) derive from the same
+  # subject; either co-assign them or drop the "patient-independent" claim.
+classes:
+  scheme: three_class_custom
+  mapping:                      # beat annotation symbol -> study class
+    Normal: [N, L, R, e, j]
+    VEB:    [V, E]
+    Other:  [A, a, J, S, F, "/", f, Q]
+  aami_superclasses:            # reference mapping requested by reviewers
+    N: [N, L, R, e, j]
+    SVEB: [A, a, J, S]
+    VEB: [V, E]
+    F: [F]
+    Q: ["/", f, Q]
+beats:
+  window: centered_on_r_peak
+  resample_points: 256
+  zscore: per_record_training_statistics
+models:
+  cnn:
+    input: raw_256_waveform          # optional rr_branch for the matched-input ablation
+    rr_branch: false
+    seeds: [1, 2, 3]                 # lock to manuscript seeds
+    lr: 1.0e-3
+    batch_size: 128
+    max_epochs: 30
+    early_stop_patience: 6
+  extra_trees:
+    features: [pre_rr, post_rr, local_rr_mean, waveform_stats]
+    n_estimators: 500
+    seed: 1
+evaluation:
+  per_class: [sensitivity, ppv, f1]
+  confusion_matrix: true
+  bootstrap: {replicates: 2000, unit: record, note: "use Holter/patient-level clusters where metadata permit (INCART)"}
