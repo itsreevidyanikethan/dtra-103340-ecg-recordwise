@@ -1,0 +1,146 @@
+datasets:
+  internal: mitdb
+  external:
+  - incartdb
+  - svdb
+  - sddb
+  lead_rule: MLII where available; otherwise the first available channel
+split:
+  method: subject_grouped_reconstruction_from_supplied_record_split
+  train_records:
+  - 101
+  - 106
+  - 108
+  - 109
+  - 112
+  - 114
+  - 115
+  - 116
+  - 118
+  - 119
+  - 122
+  - 124
+  - 201
+  - 202
+  - 203
+  - 205
+  - 207
+  - 208
+  - 209
+  - 215
+  - 220
+  - 223
+  - 230
+  test_records:
+  - 100
+  - 103
+  - 105
+  - 111
+  - 113
+  - 117
+  - 121
+  - 123
+  - 200
+  - 210
+  - 212
+  - 213
+  - 214
+  - 219
+  - 221
+  - 222
+  - 228
+  - 231
+  - 232
+  - 233
+  - 234
+  subject_aliases:
+    201: subject_201_202
+    202: subject_201_202
+  validation_fraction: 0.2
+  validation_seed: 103340
+  change_reason: Records 201 and 202 share a subject; both assigned to development
+    before test evaluation.
+classes:
+  scheme: three_class_custom
+  mapping:
+    Normal:
+    - N
+    - L
+    - R
+    - e
+    - j
+    VEB:
+    - V
+    - E
+    Other:
+    - A
+    - a
+    - J
+    - S
+    - F
+    - /
+    - f
+    - Q
+  aami_superclasses:
+    N:
+    - N
+    - L
+    - R
+    - e
+    - j
+    SVEB:
+    - A
+    - a
+    - J
+    - S
+    VEB:
+    - V
+    - E
+    F:
+    - F
+    Q:
+    - /
+    - f
+    - Q
+beats:
+  window: centered_on_r_peak
+  resample_points: 256
+  zscore: scalar_mean_std_over_pooled_training_beats_only
+  rr_rule: intervals between valid beat annotations; unavailable intervals imputed
+    to zero
+models:
+  cnn:
+    input: raw_256_waveform
+    rr_branch: false
+    seeds:
+    - 1
+    - 2
+    - 3
+    lr: 0.001
+    batch_size: 128
+    max_epochs: 30
+    early_stop_patience: 6
+    variants:
+    - waveform
+    - waveform_rr
+    checkpoint_selection: validation_macro_f1
+  extra_trees:
+    features:
+    - pre_rr
+    - post_rr
+    - local_rr_mean
+    - waveform_stats
+    n_estimators: 500
+    seed: 1
+    n_jobs: 2
+evaluation:
+  per_class:
+  - sensitivity
+  - ppv
+  - f1
+  confusion_matrix: true
+  bootstrap:
+    replicates: 2000
+    unit: record
+    note: use Holter/patient-level clusters where metadata permit (INCART)
+status: new reconstruction protocol; not the unavailable original study

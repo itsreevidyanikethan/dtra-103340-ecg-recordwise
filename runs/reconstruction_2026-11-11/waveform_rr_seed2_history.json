@@ -1,0 +1,96 @@
+{
+  "selected_epoch": 12,
+  "best_validation_macro_f1": 0.5592032978526174,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_macro_f1": 0.4779470572450993,
+      "seconds": 13.26446662699982
+    },
+    {
+      "epoch": 2,
+      "validation_macro_f1": 0.5178251592760179,
+      "seconds": 18.15213519000008
+    },
+    {
+      "epoch": 3,
+      "validation_macro_f1": 0.47694861966304525,
+      "seconds": 18.194897583000056
+    },
+    {
+      "epoch": 4,
+      "validation_macro_f1": 0.49611255530365334,
+      "seconds": 13.37779081700046
+    },
+    {
+      "epoch": 5,
+      "validation_macro_f1": 0.5180374562858108,
+      "seconds": 14.961211264999292
+    },
+    {
+      "epoch": 6,
+      "validation_macro_f1": 0.5157481720118628,
+      "seconds": 18.33683781000036
+    },
+    {
+      "epoch": 7,
+      "validation_macro_f1": 0.5364698218580376,
+      "seconds": 14.294377796000845
+    },
+    {
+      "epoch": 8,
+      "validation_macro_f1": 0.483742720525723,
+      "seconds": 13.184265046999826
+    },
+    {
+      "epoch": 9,
+      "validation_macro_f1": 0.5218370123228029,
+      "seconds": 13.524105550000058
+    },
+    {
+      "epoch": 10,
+      "validation_macro_f1": 0.4749625082309299,
+      "seconds": 12.820640448999256
+    },
+    {
+      "epoch": 11,
+      "validation_macro_f1": 0.5152796360751284,
+      "seconds": 13.155370350999874
+    },
+    {
+      "epoch": 12,
+      "validation_macro_f1": 0.5592032978526174,
+      "seconds": 14.777771811000093
+    },
+    {
+      "epoch": 13,
+      "validation_macro_f1": 0.4296187593616829,
+      "seconds": 13.255610219000118
+    },
+    {
+      "epoch": 14,
+      "validation_macro_f1": 0.44944381885682333,
+      "seconds": 13.134030712999447
+    },
+    {
+      "epoch": 15,
+      "validation_macro_f1": 0.4745916690937886,
+      "seconds": 12.165987188000145
+    },
+    {
+      "epoch": 16,
+      "validation_macro_f1": 0.5437348854267924,
+      "seconds": 13.119862951000869
+    },
+    {
+      "epoch": 17,
+      "validation_macro_f1": 0.48697093091533067,
+      "seconds": 12.73884002000068
+    },
+    {
+      "epoch": 18,
+      "validation_macro_f1": 0.5104451851558018,
+      "seconds": 13.496042318000036
+    }
+  ]
+}

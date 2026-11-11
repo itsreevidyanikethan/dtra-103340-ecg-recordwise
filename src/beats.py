@@ -1,5 +1,5 @@
 """Beat extraction: annotation-supplied R peaks, 256-point resampled windows,
-per-record training z-scoring, RR features, and the three-class label mapping."""
+pooled-training z-scoring, RR features, and the three-class label mapping."""
 import numpy as np
 import wfdb
 from scipy.signal import resample
@@ -24,7 +24,7 @@ def pick_lead(record):
     return names.index("MLII") if "MLII" in names else 0
 
 
-def extract_record(path, window_s=0.7, out_points=256):
+def extract_record(path, window_s=0.7, out_points=256, return_metadata=False):
     """Return beats (n,256), labels (n,), rr features (n,3) for one record.
 
     Beat locations come from the reference annotations (not end-to-end
@@ -36,20 +36,33 @@ def extract_record(path, window_s=0.7, out_points=256):
     fs = rec.fs
     half = int(window_s * fs / 2)
     samples, labels, rrs = [], [], []
-    peaks = ann.sample
-    for k, (pos, sym) in enumerate(zip(peaks, ann.symbol)):
+    valid = np.array([beat_class(sym) is not None for sym in ann.symbol])
+    peaks = np.asarray(ann.sample)[valid]
+    symbols = np.asarray(ann.symbol)[valid]
+    kept_positions = []; skipped_boundary = 0; skipped_nonfinite = 0
+    for k, (pos, sym) in enumerate(zip(peaks, symbols)):
         cls = beat_class(sym)
         if cls is None or pos - half < 0 or pos + half >= len(sig):
+            skipped_boundary += 1
+            continue
+        if not np.isfinite(sig[pos-half:pos+half]).all():
+            skipped_nonfinite += 1
             continue
         seg = resample(sig[pos - half:pos + half], out_points)
         pre = (pos - peaks[k - 1]) / fs if k > 0 else np.nan
         post = (peaks[k + 1] - pos) / fs if k + 1 < len(peaks) else np.nan
         local = np.diff(peaks[max(0, k - 5):k + 1]).mean() / fs if k > 0 else np.nan
+        kept_positions.append(int(pos))
         samples.append(seg)
         labels.append(cls)
         rrs.append([pre, post, local])
-    x = np.asarray(samples, dtype=np.float32)
-    return x, np.asarray(labels), np.asarray(rrs, dtype=np.float32)
+    x = np.asarray(samples, dtype=np.float32).reshape(-1, out_points)
+    result = (x, np.asarray(labels, dtype=np.int64), np.asarray(rrs, dtype=np.float32).reshape(-1, 3))
+    if return_metadata:
+        return (*result, {'lead': rec.sig_name[pick_lead(rec)], 'sampling_rate': float(fs),
+                          'sample_positions': kept_positions, 'valid_beat_annotations': int(valid.sum()),
+                          'excluded_boundary': skipped_boundary, 'excluded_nonfinite': skipped_nonfinite})
+    return result
 
 
 def zscore_train_stats(x_train):

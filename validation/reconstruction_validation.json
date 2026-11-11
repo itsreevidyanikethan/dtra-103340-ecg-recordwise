@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-11",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "wfdb": "4.3.1",
+    "PyYAML": "6.0.3"
+  },
+  "regression_tests": {
+    "command": "python tests/test_reconstruction.py",
+    "passed": true,
+    "tests": 3,
+    "log": ".waveform_seed1 1 0.301587\nwaveform_seed1 2 0.311111\nwaveform_rr_seed1 1 0.133333\nwaveform_rr_seed1 2 0.133333\nmitdb evaluation complete: 24 beats\n..\n----------------------------------------------------------------------\nRan 3 tests in 2.728s\n\nOK\n"
+  },
+  "smoke_test": {
+    "passed": true,
+    "log": "SMOKE TEST PASSED\n"
+  },
+  "new_real_data_run": {
+    "captured_at": "2026-11-11T06:52:59.678148+00:00",
+    "run_kind": "new_reconstruction",
+    "training_complete": true,
+    "trained_models": 7,
+    "internal_and_external_evaluation_complete": true,
+    "databases": {
+      "mitdb": {
+        "beats": 47558,
+        "records": 21,
+        "models": 7,
+        "bootstrap_replicates_per_model": 2000
+      },
+      "svdb": {
+        "beats": 184521,
+        "records": 78,
+        "models": 7,
+        "bootstrap_replicates_per_model": 2000
+      },
+      "incartdb": {
+        "beats": 175812,
+        "records": 75,
+        "models": 7,
+        "bootstrap_replicates_per_model": 2000
+      },
+      "sddb": {
+        "beats": 795066,
+        "records": 12,
+        "models": 7,
+        "bootstrap_replicates_per_model": 2000
+      }
+    },
+    "original_manuscript_agreement": "not assessable; final original manuscript and artifacts not supplied",
+    "protocol": "new subject-grouped reconstruction; differs from supplied record-only placeholders",
+    "sddb_annotation_scope": "12 records with audited atr; 11 records without audited atr excluded"
+  },
+  "independent_metric_verification": {
+    "run_kind": "new_reconstruction",
+    "frozen_artifacts_match": true,
+    "databases": {
+      "incartdb": {
+        "beats": 175812,
+        "records": 75,
+        "models": {
+          "waveform_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "extra_trees": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          }
+        }
+      },
+      "mitdb": {
+        "beats": 47558,
+        "records": 21,
+        "models": {
+          "waveform_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "extra_trees": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          }
+        }
+      },
+      "sddb": {
+        "beats": 795066,
+        "records": 12,
+        "models": {
+          "waveform_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "extra_trees": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          }
+        }
+      },
+      "svdb": {
+        "beats": 184521,
+        "records": 78,
+        "models": {
+          "waveform_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed1": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed2": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "waveform_rr_seed3": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          },
+          "extra_trees": {
+            "metrics_match_saved_predictions": true,
+            "bootstrap_interval_matches_draws": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "protocol_sha256": "0f7a5ee9dafa4d19dbffc14f1f587f4b55c60039a7d422c173c9bf320345984e",
+  "artifacts": {
+    "waveform_seed1.pt": "8dc079562675b2c985035e79fead7e561d8716df402075fa465ea10695a6114a",
+    "waveform_seed2.pt": "25182bef53a43d0461df72762c64c86f8ef3d2c4982ebcac2f09fd99b880c1f0",
+    "waveform_seed3.pt": "d46f3b6965ba27021a4cc4582e42c23c28e39433c644f11da4ba27f51ea47607",
+    "waveform_rr_seed1.pt": "50a80607d9250837f878f47116e778a65951b114127b2196c8575fc577989458",
+    "waveform_rr_seed2.pt": "a8d025c2aba711d5a17d92b5f0ab3406913da45f2b077c13f540697736b0fb6a",
+    "waveform_rr_seed3.pt": "cf9e91b1b72be30ad30c2dbdea1cedffcc063e26072c98297e654ce3e27afd14",
+    "extra_trees.joblib": "5b812ab77e6b530e6fa863e062f0922528a16520a6318e657cd47d726548ceb3",
+    "training_statistics.json": "b06caad8ef2969ad4c32becede5fd3bbd9376256a7d04a25c292408e4e570830",
+    "split_manifest.json": "21d67c8f5fec9b004f342a68e66880dd6f0321d0c836c245ee39034e37207b54"
+  }
+}

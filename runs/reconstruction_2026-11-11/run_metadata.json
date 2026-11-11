@@ -1,0 +1,16 @@
+{
+  "run_kind": "new_reconstruction",
+  "original_manuscript_not_available": true,
+  "protocol_sha256": "0f7a5ee9dafa4d19dbffc14f1f587f4b55c60039a7d422c173c9bf320345984e",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "wfdb": "4.3.1"
+  },
+  "subject_split_change": "201 and 202 co-assigned to development; distinct from supplied record-only split",
+  "validation_rows": 11430,
+  "training_rows": 41705,
+  "threads": 2
+}

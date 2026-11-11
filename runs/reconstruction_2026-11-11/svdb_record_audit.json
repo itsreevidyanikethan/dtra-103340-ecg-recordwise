@@ -1,0 +1,1016 @@
+{
+  "800": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1883,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1883,
+    "class_counts": [
+      1846,
+      6,
+      31
+    ]
+  },
+  "801": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2509,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2509,
+    "class_counts": [
+      2175,
+      268,
+      66
+    ]
+  },
+  "802": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1671,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1670,
+    "class_counts": [
+      1585,
+      85,
+      0
+    ]
+  },
+  "803": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2068,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2068,
+    "class_counts": [
+      1924,
+      143,
+      1
+    ]
+  },
+  "804": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2834,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2832,
+    "class_counts": [
+      2651,
+      181,
+      0
+    ]
+  },
+  "805": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2298,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2298,
+    "class_counts": [
+      2091,
+      207,
+      0
+    ]
+  },
+  "806": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3023,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3022,
+    "class_counts": [
+      2951,
+      29,
+      42
+    ]
+  },
+  "807": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1942,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1940,
+    "class_counts": [
+      1911,
+      0,
+      29
+    ]
+  },
+  "808": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1774,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1774,
+    "class_counts": [
+      1746,
+      8,
+      20
+    ]
+  },
+  "809": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2544,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2543,
+    "class_counts": [
+      2431,
+      0,
+      112
+    ]
+  },
+  "810": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1903,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1902,
+    "class_counts": [
+      1838,
+      56,
+      8
+    ]
+  },
+  "811": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1436,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1434,
+    "class_counts": [
+      1404,
+      28,
+      2
+    ]
+  },
+  "812": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1842,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1842,
+    "class_counts": [
+      1758,
+      70,
+      14
+    ]
+  },
+  "820": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2352,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2351,
+    "class_counts": [
+      2162,
+      3,
+      186
+    ]
+  },
+  "821": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3133,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3132,
+    "class_counts": [
+      2481,
+      36,
+      615
+    ]
+  },
+  "822": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2334,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2334,
+    "class_counts": [
+      1675,
+      1,
+      658
+    ]
+  },
+  "823": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2861,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2860,
+    "class_counts": [
+      2478,
+      0,
+      382
+    ]
+  },
+  "824": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2419,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2419,
+    "class_counts": [
+      2216,
+      7,
+      196
+    ]
+  },
+  "825": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2798,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2796,
+    "class_counts": [
+      2651,
+      0,
+      145
+    ]
+  },
+  "826": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2661,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2661,
+    "class_counts": [
+      2581,
+      0,
+      80
+    ]
+  },
+  "827": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1862,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1862,
+    "class_counts": [
+      1844,
+      0,
+      18
+    ]
+  },
+  "828": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1913,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1912,
+    "class_counts": [
+      1756,
+      6,
+      150
+    ]
+  },
+  "829": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1967,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1966,
+    "class_counts": [
+      1886,
+      0,
+      80
+    ]
+  },
+  "840": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2386,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2385,
+    "class_counts": [
+      2340,
+      1,
+      44
+    ]
+  },
+  "841": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1854,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1854,
+    "class_counts": [
+      1491,
+      254,
+      109
+    ]
+  },
+  "842": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2559,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2559,
+    "class_counts": [
+      2394,
+      61,
+      104
+    ]
+  },
+  "843": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2708,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2706,
+    "class_counts": [
+      2647,
+      38,
+      21
+    ]
+  },
+  "844": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1709,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1709,
+    "class_counts": [
+      1650,
+      0,
+      59
+    ]
+  },
+  "845": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2887,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2887,
+    "class_counts": [
+      2828,
+      30,
+      29
+    ]
+  },
+  "846": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1681,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1679,
+    "class_counts": [
+      1659,
+      0,
+      20
+    ]
+  },
+  "847": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1762,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1760,
+    "class_counts": [
+      1665,
+      44,
+      51
+    ]
+  },
+  "848": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 4259,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 4257,
+    "class_counts": [
+      4226,
+      1,
+      30
+    ]
+  },
+  "849": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2161,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2160,
+    "class_counts": [
+      2059,
+      6,
+      95
+    ]
+  },
+  "850": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1838,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1836,
+    "class_counts": [
+      1829,
+      0,
+      7
+    ]
+  },
+  "851": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2628,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2627,
+    "class_counts": [
+      2168,
+      427,
+      32
+    ]
+  },
+  "852": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2664,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2664,
+    "class_counts": [
+      2334,
+      9,
+      321
+    ]
+  },
+  "853": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2231,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2230,
+    "class_counts": [
+      2106,
+      64,
+      60
+    ]
+  },
+  "854": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2732,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2732,
+    "class_counts": [
+      1790,
+      478,
+      464
+    ]
+  },
+  "855": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2540,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2538,
+    "class_counts": [
+      2034,
+      276,
+      228
+    ]
+  },
+  "856": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2853,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2852,
+    "class_counts": [
+      2811,
+      28,
+      13
+    ]
+  },
+  "857": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2584,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2582,
+    "class_counts": [
+      2400,
+      144,
+      38
+    ]
+  },
+  "858": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2180,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2180,
+    "class_counts": [
+      2169,
+      3,
+      8
+    ]
+  },
+  "859": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3542,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3540,
+    "class_counts": [
+      3007,
+      464,
+      69
+    ]
+  },
+  "860": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2418,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2417,
+    "class_counts": [
+      1673,
+      727,
+      17
+    ]
+  },
+  "861": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2472,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2472,
+    "class_counts": [
+      1875,
+      27,
+      570
+    ]
+  },
+  "862": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2188,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2188,
+    "class_counts": [
+      2134,
+      23,
+      31
+    ]
+  },
+  "863": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3124,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3124,
+    "class_counts": [
+      2561,
+      240,
+      323
+    ]
+  },
+  "864": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1895,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1894,
+    "class_counts": [
+      1743,
+      132,
+      19
+    ]
+  },
+  "865": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3162,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3161,
+    "class_counts": [
+      1101,
+      235,
+      1825
+    ]
+  },
+  "866": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2666,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2665,
+    "class_counts": [
+      2051,
+      447,
+      167
+    ]
+  },
+  "867": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3000,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2999,
+    "class_counts": [
+      2788,
+      75,
+      136
+    ]
+  },
+  "868": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3347,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3346,
+    "class_counts": [
+      2553,
+      555,
+      238
+    ]
+  },
+  "869": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2161,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2160,
+    "class_counts": [
+      1506,
+      22,
+      632
+    ]
+  },
+  "870": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2678,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2678,
+    "class_counts": [
+      1786,
+      438,
+      454
+    ]
+  },
+  "871": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1796,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1795,
+    "class_counts": [
+      1775,
+      8,
+      12
+    ]
+  },
+  "872": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1981,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1980,
+    "class_counts": [
+      1897,
+      74,
+      9
+    ]
+  },
+  "873": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1684,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1683,
+    "class_counts": [
+      1625,
+      26,
+      32
+    ]
+  },
+  "874": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2240,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2238,
+    "class_counts": [
+      2188,
+      41,
+      9
+    ]
+  },
+  "875": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2052,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2051,
+    "class_counts": [
+      1945,
+      97,
+      9
+    ]
+  },
+  "876": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2141,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2141,
+    "class_counts": [
+      2006,
+      0,
+      135
+    ]
+  },
+  "877": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2038,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2036,
+    "class_counts": [
+      1839,
+      1,
+      196
+    ]
+  },
+  "878": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1911,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1910,
+    "class_counts": [
+      1590,
+      256,
+      64
+    ]
+  },
+  "879": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2062,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2062,
+    "class_counts": [
+      1472,
+      542,
+      48
+    ]
+  },
+  "880": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 3487,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3486,
+    "class_counts": [
+      3104,
+      141,
+      241
+    ]
+  },
+  "881": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2263,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2262,
+    "class_counts": [
+      1324,
+      307,
+      631
+    ]
+  },
+  "882": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1935,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1935,
+    "class_counts": [
+      1889,
+      5,
+      41
+    ]
+  },
+  "883": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1820,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1820,
+    "class_counts": [
+      1773,
+      7,
+      40
+    ]
+  },
+  "884": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2883,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2883,
+    "class_counts": [
+      2485,
+      344,
+      54
+    ]
+  },
+  "885": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1960,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1960,
+    "class_counts": [
+      1506,
+      54,
+      400
+    ]
+  },
+  "886": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2223,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2222,
+    "class_counts": [
+      2169,
+      27,
+      26
+    ]
+  },
+  "887": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2690,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2690,
+    "class_counts": [
+      2354,
+      210,
+      126
+    ]
+  },
+  "888": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2313,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2312,
+    "class_counts": [
+      2190,
+      54,
+      68
+    ]
+  },
+  "889": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 1709,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1708,
+    "class_counts": [
+      1465,
+      91,
+      152
+    ]
+  },
+  "890": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2174,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2174,
+    "class_counts": [
+      2003,
+      97,
+      74
+    ]
+  },
+  "891": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2606,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2605,
+    "class_counts": [
+      2121,
+      207,
+      277
+    ]
+  },
+  "892": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2843,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2843,
+    "class_counts": [
+      1742,
+      577,
+      524
+    ]
+  },
+  "893": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2528,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2527,
+    "class_counts": [
+      2188,
+      339,
+      0
+    ]
+  },
+  "894": {
+    "lead": "ECG1",
+    "sampling_rate": 128.0,
+    "valid_beat_annotations": 2347,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2347,
+    "class_counts": [
+      2213,
+      53,
+      81
+    ]
+  }
+}

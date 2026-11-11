@@ -1,0 +1,301 @@
+{
+  "101": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1865,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1864,
+    "class_counts": [
+      1859,
+      0,
+      5
+    ]
+  },
+  "106": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2027,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2027,
+    "class_counts": [
+      1507,
+      520,
+      0
+    ]
+  },
+  "108": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1763,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1762,
+    "class_counts": [
+      1739,
+      17,
+      6
+    ]
+  },
+  "109": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2532,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2530,
+    "class_counts": [
+      2490,
+      38,
+      2
+    ]
+  },
+  "112": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2539,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2537,
+    "class_counts": [
+      2535,
+      0,
+      2
+    ]
+  },
+  "114": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1879,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1879,
+    "class_counts": [
+      1820,
+      43,
+      16
+    ]
+  },
+  "115": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1953,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1952,
+    "class_counts": [
+      1952,
+      0,
+      0
+    ]
+  },
+  "116": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2412,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2411,
+    "class_counts": [
+      2301,
+      109,
+      1
+    ]
+  },
+  "118": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2278,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2277,
+    "class_counts": [
+      2165,
+      16,
+      96
+    ]
+  },
+  "119": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1987,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1987,
+    "class_counts": [
+      1543,
+      444,
+      0
+    ]
+  },
+  "122": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2476,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2474,
+    "class_counts": [
+      2474,
+      0,
+      0
+    ]
+  },
+  "124": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1619,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1618,
+    "class_counts": [
+      1535,
+      47,
+      36
+    ]
+  },
+  "201": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1963,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1963,
+    "class_counts": [
+      1635,
+      198,
+      130
+    ]
+  },
+  "202": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2136,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2135,
+    "class_counts": [
+      2060,
+      19,
+      56
+    ]
+  },
+  "203": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2980,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2979,
+    "class_counts": [
+      2528,
+      444,
+      7
+    ]
+  },
+  "205": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2656,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2656,
+    "class_counts": [
+      2571,
+      71,
+      14
+    ]
+  },
+  "207": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 1860,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1859,
+    "class_counts": [
+      1542,
+      210,
+      107
+    ]
+  },
+  "208": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2955,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2953,
+    "class_counts": [
+      1585,
+      992,
+      376
+    ]
+  },
+  "209": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 3005,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3005,
+    "class_counts": [
+      2621,
+      1,
+      383
+    ]
+  },
+  "215": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 3363,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3361,
+    "class_counts": [
+      3193,
+      164,
+      4
+    ]
+  },
+  "220": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2048,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2046,
+    "class_counts": [
+      1952,
+      0,
+      94
+    ]
+  },
+  "223": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2605,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2605,
+    "class_counts": [
+      2045,
+      473,
+      87
+    ]
+  },
+  "230": {
+    "lead": "MLII",
+    "sampling_rate": 360.0,
+    "valid_beat_annotations": 2256,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2255,
+    "class_counts": [
+      2254,
+      1,
+      0
+    ]
+  }
+}

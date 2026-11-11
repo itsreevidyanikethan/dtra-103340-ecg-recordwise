@@ -1,0 +1,977 @@
+{
+  "I01": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2757,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2757,
+    "class_counts": [
+      2413,
+      344,
+      0
+    ]
+  },
+  "I02": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2674,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2673,
+    "class_counts": [
+      2444,
+      229,
+      0
+    ]
+  },
+  "I03": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2452,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2451,
+    "class_counts": [
+      2324,
+      125,
+      2
+    ]
+  },
+  "I04": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2424,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2423,
+    "class_counts": [
+      2269,
+      121,
+      33
+    ]
+  },
+  "I05": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1776,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1775,
+    "class_counts": [
+      1519,
+      247,
+      9
+    ]
+  },
+  "I06": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2493,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2493,
+    "class_counts": [
+      2436,
+      9,
+      48
+    ]
+  },
+  "I07": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2706,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2705,
+    "class_counts": [
+      2639,
+      1,
+      65
+    ]
+  },
+  "I08": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2131,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2130,
+    "class_counts": [
+      1776,
+      351,
+      3
+    ]
+  },
+  "I09": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2989,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2988,
+    "class_counts": [
+      2947,
+      41,
+      0
+    ]
+  },
+  "I10": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3682,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3682,
+    "class_counts": [
+      3599,
+      83,
+      0
+    ]
+  },
+  "I11": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2082,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2081,
+    "class_counts": [
+      2077,
+      4,
+      0
+    ]
+  },
+  "I12": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2809,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2808,
+    "class_counts": [
+      2799,
+      6,
+      3
+    ]
+  },
+  "I13": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2023,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2023,
+    "class_counts": [
+      1793,
+      230,
+      0
+    ]
+  },
+  "I14": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1866,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1865,
+    "class_counts": [
+      1801,
+      64,
+      0
+    ]
+  },
+  "I15": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2635,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2633,
+    "class_counts": [
+      2630,
+      3,
+      0
+    ]
+  },
+  "I16": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1522,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1522,
+    "class_counts": [
+      1520,
+      2,
+      0
+    ]
+  },
+  "I17": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1673,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1672,
+    "class_counts": [
+      1645,
+      27,
+      0
+    ]
+  },
+  "I18": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3084,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3083,
+    "class_counts": [
+      2661,
+      366,
+      56
+    ]
+  },
+  "I19": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2062,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2062,
+    "class_counts": [
+      1212,
+      850,
+      0
+    ]
+  },
+  "I20": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2652,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2650,
+    "class_counts": [
+      2360,
+      110,
+      180
+    ]
+  },
+  "I21": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2184,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2184,
+    "class_counts": [
+      2072,
+      8,
+      104
+    ]
+  },
+  "I22": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3126,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3126,
+    "class_counts": [
+      2816,
+      185,
+      125
+    ]
+  },
+  "I23": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2205,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2205,
+    "class_counts": [
+      2192,
+      13,
+      0
+    ]
+  },
+  "I24": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2571,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2569,
+    "class_counts": [
+      2563,
+      6,
+      0
+    ]
+  },
+  "I25": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1712,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1712,
+    "class_counts": [
+      1705,
+      5,
+      2
+    ]
+  },
+  "I26": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1509,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1509,
+    "class_counts": [
+      1498,
+      4,
+      7
+    ]
+  },
+  "I27": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2605,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2605,
+    "class_counts": [
+      1885,
+      720,
+      0
+    ]
+  },
+  "I28": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1717,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1717,
+    "class_counts": [
+      1713,
+      4,
+      0
+    ]
+  },
+  "I29": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2621,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2619,
+    "class_counts": [
+      1835,
+      783,
+      1
+    ]
+  },
+  "I30": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2462,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2460,
+    "class_counts": [
+      1705,
+      755,
+      0
+    ]
+  },
+  "I31": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3210,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3209,
+    "class_counts": [
+      1843,
+      1365,
+      1
+    ]
+  },
+  "I32": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1619,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1618,
+    "class_counts": [
+      1561,
+      57,
+      0
+    ]
+  },
+  "I33": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1837,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1836,
+    "class_counts": [
+      1245,
+      1,
+      590
+    ]
+  },
+  "I34": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1965,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1964,
+    "class_counts": [
+      1428,
+      0,
+      536
+    ]
+  },
+  "I35": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3676,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3675,
+    "class_counts": [
+      3200,
+      457,
+      18
+    ]
+  },
+  "I36": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3911,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3910,
+    "class_counts": [
+      3448,
+      450,
+      12
+    ]
+  },
+  "I37": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2461,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2461,
+    "class_counts": [
+      2009,
+      452,
+      0
+    ]
+  },
+  "I38": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2699,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2698,
+    "class_counts": [
+      2153,
+      544,
+      1
+    ]
+  },
+  "I39": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1775,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1774,
+    "class_counts": [
+      1461,
+      313,
+      0
+    ]
+  },
+  "I40": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2666,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2666,
+    "class_counts": [
+      2568,
+      92,
+      6
+    ]
+  },
+  "I41": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1630,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1630,
+    "class_counts": [
+      1624,
+      1,
+      5
+    ]
+  },
+  "I42": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 3109,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 3108,
+    "class_counts": [
+      1545,
+      1554,
+      9
+    ]
+  },
+  "I43": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2209,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2208,
+    "class_counts": [
+      1086,
+      1120,
+      2
+    ]
+  },
+  "I44": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2495,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2494,
+    "class_counts": [
+      1803,
+      683,
+      8
+    ]
+  },
+  "I45": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1928,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1926,
+    "class_counts": [
+      1435,
+      491,
+      0
+    ]
+  },
+  "I46": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2658,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2657,
+    "class_counts": [
+      2231,
+      422,
+      4
+    ]
+  },
+  "I47": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1953,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1952,
+    "class_counts": [
+      1858,
+      93,
+      1
+    ]
+  },
+  "I48": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2357,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2357,
+    "class_counts": [
+      2119,
+      235,
+      3
+    ]
+  },
+  "I49": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2147,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2147,
+    "class_counts": [
+      2120,
+      27,
+      0
+    ]
+  },
+  "I50": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2998,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2997,
+    "class_counts": [
+      2993,
+      4,
+      0
+    ]
+  },
+  "I51": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2777,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2775,
+    "class_counts": [
+      1969,
+      802,
+      4
+    ]
+  },
+  "I52": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1747,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1747,
+    "class_counts": [
+      1610,
+      137,
+      0
+    ]
+  },
+  "I53": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2262,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2260,
+    "class_counts": [
+      1150,
+      1110,
+      0
+    ]
+  },
+  "I54": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2363,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2362,
+    "class_counts": [
+      2339,
+      22,
+      1
+    ]
+  },
+  "I55": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2166,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2165,
+    "class_counts": [
+      2147,
+      17,
+      1
+    ]
+  },
+  "I56": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1705,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1705,
+    "class_counts": [
+      1672,
+      7,
+      26
+    ]
+  },
+  "I57": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2871,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2869,
+    "class_counts": [
+      2840,
+      21,
+      8
+    ]
+  },
+  "I58": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2325,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2323,
+    "class_counts": [
+      2311,
+      12,
+      0
+    ]
+  },
+  "I59": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2148,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2148,
+    "class_counts": [
+      2067,
+      81,
+      0
+    ]
+  },
+  "I60": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2475,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2474,
+    "class_counts": [
+      2474,
+      0,
+      0
+    ]
+  },
+  "I61": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1454,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1453,
+    "class_counts": [
+      1452,
+      0,
+      1
+    ]
+  },
+  "I62": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2269,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2269,
+    "class_counts": [
+      1453,
+      795,
+      21
+    ]
+  },
+  "I63": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1994,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1994,
+    "class_counts": [
+      1847,
+      138,
+      9
+    ]
+  },
+  "I64": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1913,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1911,
+    "class_counts": [
+      1885,
+      23,
+      3
+    ]
+  },
+  "I65": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2664,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2664,
+    "class_counts": [
+      2273,
+      382,
+      9
+    ]
+  },
+  "I66": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2340,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2339,
+    "class_counts": [
+      2138,
+      200,
+      1
+    ]
+  },
+  "I67": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2975,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2974,
+    "class_counts": [
+      2437,
+      531,
+      6
+    ]
+  },
+  "I68": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2644,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2644,
+    "class_counts": [
+      2481,
+      161,
+      2
+    ]
+  },
+  "I69": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2169,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2168,
+    "class_counts": [
+      1999,
+      167,
+      2
+    ]
+  },
+  "I70": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1666,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1665,
+    "class_counts": [
+      1539,
+      0,
+      126
+    ]
+  },
+  "I71": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1670,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1669,
+    "class_counts": [
+      1634,
+      0,
+      35
+    ]
+  },
+  "I72": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2270,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2268,
+    "class_counts": [
+      1874,
+      386,
+      8
+    ]
+  },
+  "I73": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 1992,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 1992,
+    "class_counts": [
+      1890,
+      70,
+      32
+    ]
+  },
+  "I74": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2405,
+    "excluded_boundary": 2,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2403,
+    "class_counts": [
+      2081,
+      274,
+      48
+    ]
+  },
+  "I75": {
+    "lead": "I",
+    "sampling_rate": 257.0,
+    "valid_beat_annotations": 2103,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 2102,
+    "class_counts": [
+      1482,
+      613,
+      7
+    ]
+  }
+}

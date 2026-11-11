@@ -1,82 +1,74 @@
-# DTRA-103340 — Record-Wise Three-Class ECG Benchmark: Reproduction Package
+# DTRA-103340 — Record-grouped ECG beat classification
 
-## Verification and artifact status
+The supplied package labelled its numerical settings as placeholders and no
+final manuscript or original experiment archive was supplied. This repository
+therefore implements a **new reconstruction benchmark**. It must not be presented
+as reproduction of unavailable original results.
 
-This repository currently contains source code and a protocol configuration.
-The original experiment checkpoints, row-level manifests and prediction archives
-are not included. Synthetic smoke tests check software execution only; they do
-not reproduce or validate the manuscript's numerical results. See
-[REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the remaining evidence and code gaps.
+## New protocol
 
-Code skeleton for the leakage-controlled, record-independent benchmark of
-three-class ECG beat classification (Normal / VEB / Other) with internal
-MIT-BIH evaluation and external evaluation on INCART, SVDB and SDDB
-(Digital Technologies Research and Applications, Article ID 103340).
+`configs/reconstruction.yaml` defines a separate protocol. Records 201 and 202
+are kept together in development because they share a subject. Development is
+split into training and validation groups before fitting; the test records do
+not select models. Scalar normalisation statistics are fitted only on training
+beats. CNN checkpoints use validation macro F1 and early stopping. Both waveform
+and waveform-plus-RR variants run with three seeds, alongside saved Extra Trees.
+RR intervals use beat annotations only. Missing RR values are zero-imputed.
 
-**Status:** the structural protocol (record-wise De Chazal split, three-class
-mapping with its AAMI reference table, 256-point beat windows, CNN vs Extra
-Trees comparators including the matched-input RR-branch ablation requested in
-review, record-grouped bootstrap) is implemented. Numeric hyperparameters in
-`configs/protocol.yaml` are marked for locking against the revised manuscript
-before results are published from this package.
+This uses reference annotation locations, including the following beat for the
+post-RR feature. It is offline beat classification, not causal real-time beat
+detection, heart-attack prediction or survival analysis.
 
-## Datasets (PhysioNet; not redistributed)
+## Run
+
 ```bash
 pip install -r requirements.txt
-for db in mitdb incartdb svdb sddb; do python src/download.py --db $db; done
-```
-
-## Reproduce
-```bash
-python src/experiment.py                     # DS1 train, DS2 locked test
-python src/external_eval.py --db incartdb
-python src/external_eval.py --db svdb
-python src/external_eval.py --db sddb
-python tests/smoke_test.py                   # fast synthetic check
-```
-
-## Review-driven design notes
-- `classes.mapping` lists every beat symbol in the custom "Other" class, with
-  the standard AAMI EC57 superclasses alongside (Reviewers 1, 3, 4).
-- Records 201/202 share a subject: co-assign them in the config, or report the
-  split as record-disjoint rather than patient-independent (Reviewer 4).
-- `models.cnn.rr_branch: true` runs the matched-input ablation in which the
-  CNN also receives pre-/post-RR intervals (Reviewers 1, 2, 3).
-- Beat locations come from reference annotations, not end-to-end detection.
-- External runs record the exact lead used per record and report
-  record-grouped bootstrap CIs; the INCART Holter caveat is printed with them.
-
-## License
-Code: MIT (see LICENSE). The PhysioNet databases remain under their own
-licences and must be downloaded from PhysioNet directly.
-
-## Check this code release
-
-Run these commands from the repository root, after installing the dependencies:
-
-```bash
-python tests/smoke_test.py
-python tests/test_checksums.py
-python make_checksums.py --verify SOURCE_CHECKSUMS.txt
-```
-
-`SOURCE_CHECKSUMS.txt` covers the distributed source and validation records.
-`validation/validation.json` records the actual synthetic checks performed for
-this code update and their software versions; it is not the original study
-environment. The `python` commands intentionally omit isolated mode (`-I`),
-because training/evaluation scripts import neighbouring modules under `src/`.
-
-Once authentic run outputs have been recovered and reviewed, verify their bytes
-separately:
-
-```bash
+python src/download.py --db mitdb
+python src/reconstruct.py --threads 2
+python src/download.py --db svdb
+python src/download.py --db incartdb
+python src/download.py --db sddb
+python src/reconstruct.py --external svdb --threads 2
+python src/reconstruct.py --external incartdb --threads 2
+python src/reconstruct.py --external sddb --threads 2
 python make_checksums.py outputs --output CHECKSUMS.txt
 python make_checksums.py --verify CHECKSUMS.txt
 ```
 
-The generator fails for a missing or empty artifact directory. Do not describe a
-source checksum manifest as verification of unavailable experiment outputs.
-Keep newly generated results labelled as new runs until their provenance and
-agreement with the manuscript have been assessed. Large checkpoints should be
-archived separately with an immutable identifier and checksums. The `.gitignore`
-excludes local datasets and model outputs from accidental source commits.
+The downloader pins PhysioNet version 1.0.0 and verifies each downloaded file
+against its official SHA-256 manifest. For SDDB it includes ONLY records with
+audited `.atr` labels; unaudited `.ari` annotations are not substituted.
+Download provenance lists all excluded records.
+
+Training snapshots permit interruption and resumption in the same environment.
+Keep source/config/data unchanged when resuming. A completed internal run writes
+`mitdb_complete.json`; external evaluation is a separate explicit stage.
+
+## Outputs and limits
+
+`outputs/` contains the split manifest, training statistics, model checkpoints,
+validation histories, record audits, saved labels/probabilities/sample positions,
+and group-bootstrap replicates. A freeze manifest protects selected models from
+changes during evaluation. Record clusters on external sets are not necessarily
+independent patients: INCART has multiple recordings per Holter subject.
+
+A complete new internal and external run was executed on 11 November 2026. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for all seven models and limitations. The old
+`configs/protocol.yaml` and `src/experiment.py` are retained as supplied-protocol
+references, not recommended as the completed reconstruction entry point.
+
+## Tests and licences
+
+```bash
+python tests/smoke_test.py
+python tests/test_reconstruction.py
+python tests/test_checksums.py
+python make_checksums.py --verify SOURCE_CHECKSUMS.txt
+```
+
+Use wfdb >=4.3.1 with NumPy 2; an older version failed to read real annotations
+in this environment. Tests cover non-beat RR exclusion, whole-group bootstrap
+equivalence, grouped validation, saved models and freeze tamper detection.
+Code: MIT. Obtain data from PhysioNet and follow each database's licence and
+attribution requirements; raw signals are not included in this repository.
+
+Official data sources: [MIT-BIH](https://physionet.org/content/mitdb/1.0.0/), [SVDB](https://physionet.org/content/svdb/1.0.0/), [INCART](https://physionet.org/content/incartdb/1.0.0/), [SDDB](https://physionet.org/content/sddb/1.0.0/).

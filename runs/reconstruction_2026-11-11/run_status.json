@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-11-11T06:52:59.678148+00:00",
+  "run_kind": "new_reconstruction",
+  "training_complete": true,
+  "trained_models": 7,
+  "internal_and_external_evaluation_complete": true,
+  "databases": {
+    "mitdb": {
+      "beats": 47558,
+      "records": 21,
+      "models": 7,
+      "bootstrap_replicates_per_model": 2000
+    },
+    "svdb": {
+      "beats": 184521,
+      "records": 78,
+      "models": 7,
+      "bootstrap_replicates_per_model": 2000
+    },
+    "incartdb": {
+      "beats": 175812,
+      "records": 75,
+      "models": 7,
+      "bootstrap_replicates_per_model": 2000
+    },
+    "sddb": {
+      "beats": 795066,
+      "records": 12,
+      "models": 7,
+      "bootstrap_replicates_per_model": 2000
+    }
+  },
+  "original_manuscript_agreement": "not assessable; final original manuscript and artifacts not supplied",
+  "protocol": "new subject-grouped reconstruction; differs from supplied record-only placeholders",
+  "sddb_annotation_scope": "12 records with audited atr; 11 records without audited atr excluded"
+}

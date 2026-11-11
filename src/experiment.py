@@ -33,8 +33,9 @@ def per_class_metrics(y, pred):
         tp = cm[i, i]; fn = cm[i].sum() - tp; fp = cm[:, i].sum() - tp
         out[c] = {"support": int(cm[i].sum()),
                   "sensitivity": float(tp / (tp + fn)) if tp + fn else None,
-                  "ppv": float(tp / (tp + fp)) if tp + fp else None}
-    out["macro_f1"] = float(f1_score(y, pred, average="macro", zero_division=0))
+                  "ppv": float(tp / (tp + fp)) if tp + fp else None,
+                  "f1": float(2 * tp / (2 * tp + fn + fp)) if 2 * tp + fn + fp else 0.0}
+    out["macro_f1"] = float(f1_score(y, pred, labels=[0, 1, 2], average="macro", zero_division=0))
     return out
 
 
@@ -45,7 +46,7 @@ def record_bootstrap(y, pred, records, n_rep=2000, seed=1):
     f1s = []
     for _ in range(n_rep):
         rows = np.concatenate([idx[r] for r in rng.choice(uniq, len(uniq), replace=True)])
-        f1s.append(f1_score(y[rows], pred[rows], average="macro", zero_division=0))
+        f1s.append(f1_score(y[rows], pred[rows], labels=[0, 1, 2], average="macro", zero_division=0))
     lo, hi = np.percentile(f1s, [2.5, 97.5])
     return [float(lo), float(hi)]
 

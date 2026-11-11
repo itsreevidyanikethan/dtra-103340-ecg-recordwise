@@ -1,0 +1,158 @@
+{
+  "30": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 127418,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 1,
+    "usable_beats": 127417,
+    "class_counts": [
+      126564,
+      764,
+      89
+    ]
+  },
+  "31": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 62505,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 62504,
+    "class_counts": [
+      56792,
+      4060,
+      1652
+    ]
+  },
+  "32": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 120482,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 9,
+    "usable_beats": 120472,
+    "class_counts": [
+      103251,
+      122,
+      17099
+    ]
+  },
+  "34": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 26667,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 26667,
+    "class_counts": [
+      26547,
+      35,
+      85
+    ]
+  },
+  "35": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 96767,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 96766,
+    "class_counts": [
+      94429,
+      2336,
+      1
+    ]
+  },
+  "36": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 22434,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 22434,
+    "class_counts": [
+      20894,
+      1538,
+      2
+    ]
+  },
+  "41": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 17859,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 0,
+    "usable_beats": 17858,
+    "class_counts": [
+      16237,
+      1620,
+      1
+    ]
+  },
+  "45": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 97762,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 8,
+    "usable_beats": 97753,
+    "class_counts": [
+      96529,
+      975,
+      249
+    ]
+  },
+  "46": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 16523,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 16523,
+    "class_counts": [
+      14682,
+      1835,
+      6
+    ]
+  },
+  "49": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 82674,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 82674,
+    "class_counts": [
+      79885,
+      2689,
+      100
+    ]
+  },
+  "51": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 77859,
+    "excluded_boundary": 0,
+    "excluded_nonfinite": 0,
+    "usable_beats": 77859,
+    "class_counts": [
+      70222,
+      1121,
+      6516
+    ]
+  },
+  "52": {
+    "lead": "ECG",
+    "sampling_rate": 250.0,
+    "valid_beat_annotations": 46156,
+    "excluded_boundary": 1,
+    "excluded_nonfinite": 16,
+    "usable_beats": 46139,
+    "class_counts": [
+      39600,
+      6520,
+      19
+    ]
+  }
+}
